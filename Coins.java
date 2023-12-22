@@ -6,13 +6,11 @@ public class Coins {
 	public static void main(String[] args) {
 		// defining integers that will get args from terminal
 		
-		String name = args[0];
-		int num2 = Integer.parsInt(name);
+		int num2 = Integer.parseInt(args[0]);
 
 		int numOfQuaters = (num2 / 25) ;
 		int numOfCoins = (num2 % 25) ;
 
-		System.out.println("% java coins" + num2);
-		System.out.println("use " + numOfQuaters + " and " + numOfCoins + " cents ");
+		System.out.println("use " + numOfQuaters + " quarters and " + numOfCoins + " cents ");
 	}
 }
