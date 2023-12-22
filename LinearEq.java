@@ -8,15 +8,15 @@ public class LinearEq {
 	public static void main(String[] args) {
 
 	// defining a, b, c
-	int numberA;
-	int numberB;
-	int numberC;
-	numberA = Integer.parseInt(args[0]);
-	numberB = Integer.parseInt(args[1]);
-	numberC = Integer.parseInt(args[2]);
+	double numberA;
+	double numberB;
+	double numberC;
+	numberA = Double.parseDouble(args[0]);
+	numberB = Double.parseDouble(args[1]);
+	numberC = Double.parseDouble(args[2]);
 
 
-	int x = (numberC - numberB) / numberA;
+	double x = (numberC - numberB) / numberA;
 
 	System.out.println(numberA + " * x + " + numberB + " = " + numberC);
 	System.out.println("x = " + x);
