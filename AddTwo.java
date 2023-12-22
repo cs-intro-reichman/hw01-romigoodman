@@ -3,12 +3,15 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Put your code here	
-		int a = 10;
-		int b = 14;
-		int sumOfNumbers = 24;
+		
+		int num1;
+		int num2;
 
-		System.out.println("% java AddTwo 10 14");
-		System.out.println("10 + 14 = 24");
+		num1 = Integer.parseInt(args[0]);
+		num2 = Integer.parseInt(args[1]);
+
+		int sumOfNumbers = num1+num2;
+
+		System.out.println(num1 + " + " + num2 + " = " + sumOfNumbers);
 	}
 }

@@ -4,6 +4,15 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
+		// defining integers that will get args from terminal
+		
+		String name = args[0];
+		int num2 = Integer.parsInt(name);
+
+		int numOfQuaters = (num2 / 25) ;
+		int numOfCoins = (num2 % 25) ;
+
+		System.out.println("% java coins" + num2);
+		System.out.println("use " + numOfQuaters + " and " + numOfCoins + " cents ");
 	}
 }
