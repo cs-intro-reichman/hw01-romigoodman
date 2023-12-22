@@ -11,6 +11,6 @@ public class Coins {
 		int numOfQuaters = (num2 / 25) ;
 		int numOfCoins = (num2 % 25) ;
 
-		System.out.println("use " + numOfQuaters + " quarters and " + numOfCoins + " cents ");
+		System.out.println("Use " + numOfQuaters + " quarters and " + numOfCoins + " cents ");
 	}
 }
