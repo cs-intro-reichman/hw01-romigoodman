@@ -13,7 +13,7 @@ public class Triangle {
 		
 		//writing all the possibilities of the lengths additions in the triangle
 
-		boolean testIfTriangle = (numA + numB) >= numC;
+		boolean testIfTriangle = (numA + numB) >= numC && (numA+numC) >= numB && (numB+numC) >= numA;
 
 		System.out.println(numA + ", " + numB + ", " + numC + ": " + testIfTriangle);
 
