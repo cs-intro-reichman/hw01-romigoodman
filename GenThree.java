@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class GenThree {
 	public static void main(String[] args) {
